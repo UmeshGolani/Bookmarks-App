@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bookmark App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+
+    <!-- Bookmark Modal -->
+    <div id="modal">
+      <h1>Bookmark Website</h1>
+
+      <form id="bookmark-form">
+        <label>Website Title</label>
+        <input type="text" id="title" placeholder="Title" />
+
+        <label>Website URL</label>
+        <input type="text" id="url" placeholder="https://url.com" />
+
+        <input type="submit" value="Save Bookmark" />
+      </form>
+    </div>
+
+    <!-- Bookmark List -->
+    <div class="list-wrapper">
+    <div id="bookmarks-list"></div>
+  </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
