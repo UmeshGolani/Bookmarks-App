@@ -4,7 +4,7 @@ const urlInput = document.getElementById("url");
 const list = document.getElementById("bookmarks-list");
 const submitBtn = form.querySelector("input[type='submit']");
 
-const API_URL = "https://crudcrud.com/api/00994462b1344aeabf7cdd5be39e8378/bookmarks";
+const API_URL = "https://crudcrud.com/api/48c0232db6a046f69013551840912b24/bookmarks";
 
 let editId = null;
 
